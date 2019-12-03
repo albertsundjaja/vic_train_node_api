@@ -6,14 +6,14 @@ This project aims to show relevant info on Melbourne Metro train without the clu
 
 ##### This project is a work in progress
 
-### Architecture
+## Architecture
 
 The REST API for this app is load-balanced using Nginx to 3 API developed in different languages (for portfolio purpose).
 
 ![architecture](assets/architecture.jpg)
 
 
-### Mobile App
+## Mobile App
 
 The mobile app is built using React Native and is available in a separate repo
 
@@ -21,6 +21,6 @@ https://github.com/albertsundjaja/vic_train_react_native
 
 ![mobile_app_wireframe](assets/mobile_app_wireframe.jpg)
 
-### REST API
+## Node REST API
 
 This repo contains the code for the Node REST API built with Express and MongoDB as the data storage.
