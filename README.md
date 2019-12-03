@@ -10,7 +10,7 @@ The mobile app is built using React Native and is available in a separate repo
 
 https://github.com/albertsundjaja/vic_train_react_native
 
-![mobile_app_wireframe](assets/mobile_app_wireframe.jpeg)
+![mobile_app_wireframe](assets/mobile_app_wireframe.jpg)
 
 ### REST API
 
