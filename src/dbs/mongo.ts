@@ -3,12 +3,12 @@ const MongoClient = mongodb.Client();
 
 let _db:any;
 
-const mongoConnect = (callback:any) => {
+const mongoConnect = (cb:any) => {
     MongoClient.connect("mongodb://localhost:27017/vic_train_board")
     .then((client:any) => {
         console.log("MongoDB connected")
         _db = client.DB();
-        callback(client);
+        cb();
     })
     .catch((err:any) => {
         console.log(err);
